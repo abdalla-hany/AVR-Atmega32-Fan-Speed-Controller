@@ -6,14 +6,14 @@ This embedded project enables the control of a fan's speed based on temperature 
   - **Main Function**: Controls the main program flow.
     
 2. Hardware Abstraction Layer (HAL)
-  - **LCD Driver**: Facilitates communication with the LCD display to visualize temperature       readings and fan status.
-  - **DC Motor Driver**: Controls the rotation of the fan motor in different states (off,         clockwise, counter-clockwise).
-  - **LM35 Sensor Driver**: Calculates temperature from the ADC digital value obtained from the   LM35 sensor.
+  - **LCD Driver**: Facilitates communication with the LCD display to visualize temperature readings and fan status.
+  - **DC Motor Driver**: Controls the rotation of the fan motor in different states (off, clockwise, counter-clockwise).
+  - **LM35 Sensor Driver**: Calculates temperature from the ADC digital value obtained from the LM35 sensor.
 
 3. Microcontroller Abstraction Layer (MCAL)
   - **ADC Driver**: Initializes and reads analog data from the LM35 temperature sensor.
   - **PWM Driver**: Manages Pulse Width Modulation (PWM) signals to adjust the fan speed.
-  - **GPIO Driver**: Manages the MCU PINS and PORTS and the communcation between any external     device.
+  - **GPIO Driver**: Manages the MCU PINS and PORTS and the communcation between any external device.
     
 # Project Workflow:
 
